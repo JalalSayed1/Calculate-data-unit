@@ -14,3 +14,4 @@ def calculate_bytes(num_of_bytes, suffix="B"):
             return f"{num_of_bytes:3.1f} {unit}{suffix}"
         num_of_bytes /= 1024.0
     return f"{num_of_bytes:.1f}Yi{suffix}"
+
